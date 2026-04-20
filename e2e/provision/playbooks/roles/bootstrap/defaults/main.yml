@@ -50,7 +50,7 @@ gitea:
         poll: 0
 
 resource_backend:
-  enabled: true
+  enabled: false
   k8s:
     namespaces:
       - backend-system
@@ -76,7 +76,7 @@ cert_manager:
         poll: 0
 
 cluster_api:
-  enabled: true
+  enabled: false
   k8s:
     namespaces:
       - capi-system
@@ -102,7 +102,7 @@ cluster_api:
         poll: 0
 
 cluster_api_nonkind_k8s:
-  enabled: true
+  enabled: false
   k8s:
     namespaces:
       - capm3-system
