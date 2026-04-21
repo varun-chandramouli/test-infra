@@ -19,38 +19,10 @@ gitea:
 nephio_catalog_repo_uri: https://github.com/nephio-project/catalog.git
 
 nephio_stock_repos:
-  - name: catalog-distros-sandbox
-    repo: "{{ nephio_catalog_repo_uri }}"
-    directory: /distros/sandbox
-    branch: "{{ nephio_catalog_version }}"
-  - name: catalog-workloads-free5gc
-    repo: "{{ nephio_catalog_repo_uri }}"
-    directory: /workloads/free5gc
-    branch: "{{ nephio_catalog_version }}"
-  - name: catalog-infra-capi
-    repo: "{{ nephio_catalog_repo_uri }}"
-    directory: /infra/capi
-    branch: "{{ nephio_catalog_version }}"
-  - name: catalog-nephio-core
-    repo: "{{ nephio_catalog_repo_uri }}"
-    directory: /nephio/core
-    branch: "{{ nephio_catalog_version }}"
-  - name: catalog-nephio-optional
-    repo: "{{ nephio_catalog_repo_uri }}"
-    directory: /nephio/optional
-    branch: "{{ nephio_catalog_version }}"
-  - name: oai-core-packages
-    repo: https://github.com/OPENAIRINTERFACE/oai-packages.git
+  - name: iosmcn-nephio-packages
+    repo: https://github.com/varun-chandramouli/iosmcn-nephio-packages.git
     directory: /
     branch: main
-  - name: catalog-workloads-oai-ran
-    repo: "{{ nephio_catalog_repo_uri }}"
-    directory: /workloads/oai
-    branch: "{{ nephio_catalog_version }}"
-  - name: catalog-workloads-tools
-    repo: "{{ nephio_catalog_repo_uri }}"
-    directory: /workloads/tools
-    branch: "{{ nephio_catalog_version }}"
 
 nephio:
   k8s:

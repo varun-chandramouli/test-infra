@@ -115,9 +115,4 @@
       type: Ready
       status: true
   loop:
-    - catalog-infra-capi
-    - catalog-nephio-core
-    - catalog-nephio-optional
-    - catalog-workloads-free5gc
-    - catalog-workloads-oai-ran
-    - oai-core-packages
+    - iosmcn-nephio-packages
