@@ -27,6 +27,7 @@ nephio_stock_repos:
   - name: catalog-infra-capi
     repo: "{{ nephio_catalog_repo_uri }}"
     directory: /infra/capi
+    branch: "{{ nephio_catalog_version }}"  
   - name: catalog-nephio-core
     repo: "{{ nephio_catalog_repo_uri }}"
     directory: /nephio/core
