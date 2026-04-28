@@ -115,4 +115,7 @@
       type: Ready
       status: true
   loop:
+    - catalog-infra-capi
+    - catalog-nephio-core
+    - catalog-nephio-optional
     - iosmcn-nephio-packages
