@@ -23,15 +23,18 @@ nephio_stock_repos:
   - name: catalog-distros-sandbox
     repo: "{{ nephio_catalog_repo_uri }}"
     directory: /distros/sandbox
+    branch: "{{ nephio_catalog_version }}"  
   - name: catalog-infra-capi
     repo: "{{ nephio_catalog_repo_uri }}"
     directory: /infra/capi
   - name: catalog-nephio-core
     repo: "{{ nephio_catalog_repo_uri }}"
     directory: /nephio/core
+    branch: "{{ nephio_catalog_version }}"  
   - name: catalog-nephio-optional
     repo: "{{ nephio_catalog_repo_uri }}"
-    directory: /nephio/optional  
+    directory: /nephio/optional
+    branch: "{{ nephio_catalog_version }}"
   - name: iosmcn-nephio-packages
     repo: https://github.com/varun-chandramouli/iosmcn-nephio-packages.git
     directory: /
